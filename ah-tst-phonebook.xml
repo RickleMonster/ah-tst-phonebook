@@ -1,0 +1,1252 @@
+WebServerInfo>
+<ArrayOfWebServer>
+<WebServer>
+<orgID>1-1</orgID>
+<!-- 
+ OrgID: This must be unique for each environment in your custom phonebook.  
+ -->
+<name>MyChartTST</name>
+<!-- 
+ Name: Name of organization, displays if there is not an associated image.  
+ -->
+<myChartBrandName>AdventHealth</myChartBrandName>
+<!-- 
+ myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.  
+ -->
+<country>US</country>
+<locations>Florida</locations>
+<url>https://mychartnp.adventhealth.com/Interconnect-MyChartMobile-TST</url>
+<!-- 
+ URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest 
+ -->
+<websiteName>ADVENTHEALTH</websiteName>
+<websiteBrandingUrl>https://mychartnp.adventhealth.com/MyChartTSTData/</websiteBrandingUrl>
+<!-- 
+  If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.  
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/AH_Logo_640x230.png</imageHandle>
+<!-- 
+ The address for the image used to represent the organization in the phonebook/organization selection list. 
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+ The hint for the username field on the login screen. 
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+ The hint for the password field on the login screen. 
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+ LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green). 
+ -->
+<value>#006298</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--   address to the image used on the login screen.    -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/AH_Logo_640x230.png</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+ This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px. 
+ -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/AH_Logo_640x230.png</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+ two letter ISO code for the default language MyChart should be in after logging in. Default is en. 
+ -->
+<value>en</value>
+</option>
+<option>
+<key>disableUsernamePasswordLogin</key>
+<value>1</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+ comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage 
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+ Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US. 
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+ URL for IOS custom login page.  Set up as a html page. 
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+ Url for Android custom login page.  Set up as a html page. 
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+ For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately. 
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+  Use http://nemo.webqa.epic.com/skittles/ to test colors  
+ -->
+<key>ThemeColor</key>
+<value>#006298</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+  Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option 
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-2</orgID>
+<!-- 
+ OrgID: This must be unique for each environment in your custom phonebook.  
+ -->
+<name>The Brain and Stroke Center</name>
+<!-- 
+ Name: Name of organization, displays if there is not an associated image.  
+ -->
+<myChartBrandName>The Brain and Stroke Center</myChartBrandName>
+<!-- 
+ myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.  
+ -->
+<country>US</country>
+<locations>Florida</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+ URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest 
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+  If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.  
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/PioneerLogoTransparent.png</imageHandle>
+<!-- 
+ The address for the image used to represent the organization in the phonebook/organization selection list. 
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+ The hint for the username field on the login screen. 
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+ The hint for the password field on the login screen. 
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+ LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green). 
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+ LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green). 
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--   address to the image used on the login screen.    -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/PioneerLogoTransparent.png</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+ This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px. 
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/PioneerLogoTransparent.png</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+ two letter ISO code for the default language MyChart should be in after logging in. Default is en. 
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+ comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage 
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+ Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US. 
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+ URL for IOS custom login page.  Set up as a html page. 
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+ Url for Android custom login page.  Set up as a html page. 
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+ For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately. 
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+  Use http://nemo.webqa.epic.com/skittles/ to test colors  
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+  Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option 
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-3</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Peak Internal Medicine</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Peak Internal Medicine</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Colorado</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Peak Internal Medicine Logo Version 2.svg</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Peak Internal Medicine Logo Version 2.svg</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/Peak Internal Medicine Logo Version 2.svg</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-4</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>LiveNew Co</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>LiveNew Co</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Colorado</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/LiveNew Logo MyChart.svg</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/LiveNew Logo MyChart.svg</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/LiveNew Logo MyChart.svg</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-5</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Premier Surgeons</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Premier Surgeons</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Colorado</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Premier Surgeons Logo.svg</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Premier Surgeons Logo.svg</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/Premier Surgeons Logo.svg</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1194</orgID>
+<!--  
+  OrgID: This must be unique for each environment in your custom phonebook.   
+  -->
+<name>Texas Health Advent Health</name>
+<!--  
+  Name: Name of organization, displays if there is not an associated image.   
+  -->
+<myChartBrandName>Texas Health Advent Health</myChartBrandName>
+<!--  
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+  -->
+<country>US</country>
+<locations>Texas</locations>
+<url>https://mychartnp.adventhealth.com/Interconnect-MyChartMobile-TST</url>
+<!--  
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+  -->
+<websiteName>TexasHealth</websiteName>
+<!--  
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+  -->
+<imageHandle>https://mychartnp.adventhealth.com/texashealthtst/en-us/images/MyChart_Mobile_Organization_Logo_for_Phone_Book_PNG_Color.png</imageHandle>
+<!--  
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+  -->
+<loginIDlabel>Username</loginIDlabel>
+<!--  
+  The hint for the username field on the login screen.  
+  -->
+<loginPWlabel>Password</loginPWlabel>
+<!--  
+  The hint for the password field on the login screen.  
+  -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!--  
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+  -->
+<value>#003798</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!--  
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+  -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--     address to the image used on the login screen.      -->
+<value>https://mychartnp.adventhealth.com/texashealthtst/en-us/images/MyChart_Mobile_Organization_Logo_for_Phone_Book_PNG_Color.png</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!--  
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+  -->
+<value>https://mychartnp.adventhealth.com/texashealthtst/en-us/images/MyChart_Login_Logo_PNG_Color.png</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!--  
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+  -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!--  
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+  -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!--  
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+  -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!--  
+  URL for IOS custom login page.  Set up as a html page.  
+  -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!--  
+  Url for Android custom login page.  Set up as a html page.  
+  -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!--  
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+  -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!--  
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+  -->
+<key>ThemeColor</key>
+<value>#003798</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!--  
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+  -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-6</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Colorado Pulmonary Intensivists</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Colorado Pulmonary Intensivists</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Colorado</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/CPI Logo.svg</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/CPI Logo.svg</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/CPI Logo.svg</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-7</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Internal Medicine Center</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Internal Medicine Center</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Colorado</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/IMC Logo.svg</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/IMC Logo.svg</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychart.adventhealth.com/mychartprd/EN-US/IMAGES/IMC Logo.svg</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-8</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Florida Advanced Gastroenterology Center</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Florida Advanced Gastroenterology Center</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Florida</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Florida_Advanced_Gastroenterology_Center.png</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Florida_Advanced_Gastroenterology_Center.png</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Florida_Advanced_Gastroenterology_Center.png</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+<WebServer>
+<orgID>1-9</orgID>
+<!-- 
+  OrgID: This must be unique for each environment in your custom phonebook.   
+ -->
+<name>Shepherd’s Hope</name>
+<!-- 
+  Name: Name of organization, displays if there is not an associated image.   
+ -->
+<myChartBrandName>Shepherd’s Hope</myChartBrandName>
+<!-- 
+  myChartBrandName: Shows up below image on Select a Healthcare provider and My Healthcare provider.   
+ -->
+<country>US</country>
+<locations>Florida</locations>
+<url>https://mychart.adventhealth.com/Interconnect-MyChartMobile-prd</url>
+<!-- 
+  URL: The root of the address to the rest services for the entry. e.g., https://mychart.domain.com/interconnect-path/WCF/Epic.MyChartMobile/MyChartMobile.svc/rest  
+ -->
+<websiteName>MyChartTST-CC</websiteName>
+<!-- 
+   If you are using a separate branded site for an affiliate you can use this to use the site for mobile optimized features.  Refer to Release Note 527051 for setup.   
+ -->
+<imageHandle>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Shepherds_Hope.png</imageHandle>
+<!-- 
+  The address for the image used to represent the organization in the phonebook/organization selection list.  
+ -->
+<loginIDlabel>Username</loginIDlabel>
+<!-- 
+  The hint for the username field on the login screen.  
+ -->
+<loginPWlabel>Password</loginPWlabel>
+<!-- 
+  The hint for the password field on the login screen.  
+ -->
+<hasPreloginBuild>true</hasPreloginBuild>
+<ArrayOfOptions>
+<option>
+<key>loginbgcolor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>#246fb5</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<!-- 
+  LoginbgColor: Background color for the login screen in Hex code (Ex. #00FF00 is green).  
+ -->
+<value>2</value>
+</option>
+<option>
+<key>loginImageURL</key>
+<!--    address to the image used on the login screen.     -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Shepherds_Hope.png</value>
+</option>
+<option>
+<key>brandLogoURL</key>
+<!-- 
+  This logo is shown in the banner next to powered by Epic when the patient logs in.  It must be 215x64 px.  
+ -->
+<value>https://mychartnp.adventhealth.com/MyChartTST/en-us/images/Shepherds_Hope.png</value>
+</option>
+<option>
+<key>defaultLanguage</key>
+<!-- 
+  two letter ISO code for the default language MyChart should be in after logging in. Default is en.  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>allowedLanguages</key>
+<!-- 
+  comma separated list of two letter ISO codes for the languages allowed in MyChart after logging in. Default is the defaultLanguage  
+ -->
+<value>en</value>
+</option>
+<option>
+<key>formatterLocale</key>
+<!-- 
+  Two letter ISO language code and two letter ISO region code separated by a dash. Defines the format that dates, times, and numbers will be in MyChart after logging in. Default is en-US.  
+ -->
+<value>en-US</value>
+</option>
+<option>
+<key>iOSCustomLogin</key>
+<!-- 
+  URL for IOS custom login page.  Set up as a html page.  
+ -->
+<value>http://youriospreloginpage.html/</value>
+</option>
+<option>
+<key>AndroidCustomLogin</key>
+<!-- 
+  Url for Android custom login page.  Set up as a html page.  
+ -->
+<value>http://yourandroidpreloginpage.html</value>
+</option>
+<option>
+<key>AndroidAllowedHosts</key>
+<!-- 
+  For MyChart for Android, specify a list of hosts for web addresses or apps that open directly within the webview for the MyChart app instead of in the default browser on the patient's mobile device. For iOS, this configuration is done directly in the web page for the launch screen. Enter a comma-delimited list of hosts in the following node in the phone book. Note that www.google.com and google.com, for example, are considered to be different hosts, so you must list each one separately.  
+ -->
+<value>https://pathfinder.com</value>
+</option>
+<option>
+<key>DefaultColor</key>
+<value>2</value>
+</option>
+<option>
+<!-- 
+   Use http://nemo.webqa.epic.com/skittles/ to test colors   
+ -->
+<key>ThemeColor</key>
+<value>#246fb5</value>
+</option>
+<option>
+<key>disableSecondaryLogin</key>
+<!-- 
+   Set value to 1 if organization is not live on apple watch.  If live you do not need to include this option  
+ -->
+<value>1</value>
+</option>
+</ArrayOfOptions>
+</WebServer>
+</ArrayOfWebServer>
+</WebServerInfo>
